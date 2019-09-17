@@ -1,0 +1,226 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/davidfirst/.nvm/versions/node/v8.12.0/bin/node',
+1 verbose cli   '/Users/davidfirst/.nvm/versions/node/v8.12.0/bin/npm',
+1 verbose cli   'i' ]
+2 info using npm@6.11.3
+3 info using node@v8.12.0
+4 verbose npm-session 12b029ccc90dae32
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall comp-a@1.0.0
+7 info lifecycle comp-a@1.0.0~preinstall: comp-a@1.0.0
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 7ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 0ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 1ms
+16 silly install loadAllDepsIntoIdealTree
+17 http fetch GET 304 https://registry.npmjs.org/classnames 253ms (from cache)
+18 silly pacote range manifest for classnames@^2.2.6 fetched in 259ms
+19 silly pacote range manifest for classnames@^2.2.6 fetched in 7ms
+20 silly resolveWithNewModule classnames@2.2.6 checking installable status
+21 silly pacote directory manifest for comp-b@file:../comp-b fetched in 8ms
+22 silly pacote directory manifest for comp-c@file:../comp-c fetched in 6ms
+23 silly resolveWithNewModule comp-b@1.0.0 checking installable status
+24 silly resolveWithNewModule comp-c@1.0.0 checking installable status
+25 silly pacote directory manifest for comp-c@file:../comp-c fetched in 1ms
+26 silly resolveWithNewModule comp-c@1.0.0 checking installable status
+27 silly pacote range manifest for classnames@^2.2.6 fetched in 2ms
+28 silly resolveWithNewModule classnames@2.2.6 checking installable status
+29 silly pacote range manifest for classnames@^2.2.6 fetched in 1ms
+30 silly resolveWithNewModule classnames@2.2.6 checking installable status
+31 silly pacote range manifest for classnames@^2.2.6 fetched in 1ms
+32 silly resolveWithNewModule classnames@2.2.6 checking installable status
+33 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 284ms
+34 timing stage:loadIdealTree Completed in 287ms
+35 silly currentTree comp-a@1.0.0
+36 silly idealTree comp-a@1.0.0
+36 silly idealTree ├── classnames@2.2.6
+36 silly idealTree ├─┬ comp-b@1.0.0
+36 silly idealTree │ ├── classnames@2.2.6
+36 silly idealTree │ └─┬ comp-c@1.0.0
+36 silly idealTree │   └── classnames@2.2.6
+36 silly idealTree └─┬ comp-c@1.0.0
+36 silly idealTree   └── classnames@2.2.6
+37 silly install generateActionsToTake
+38 timing stage:generateActionsToTake Completed in 4ms
+39 silly diffTrees action count 7
+40 silly diffTrees add classnames@2.2.6
+41 silly diffTrees add classnames@2.2.6
+42 silly diffTrees add comp-c@1.0.0
+43 silly diffTrees add classnames@2.2.6
+44 silly diffTrees add classnames@2.2.6
+45 silly diffTrees add comp-b@1.0.0
+46 silly diffTrees add comp-c@1.0.0
+47 silly decomposeActions action count 50
+48 silly decomposeActions fetch classnames@2.2.6
+49 silly decomposeActions extract classnames@2.2.6
+50 silly decomposeActions preinstall classnames@2.2.6
+51 silly decomposeActions build classnames@2.2.6
+52 silly decomposeActions install classnames@2.2.6
+53 silly decomposeActions postinstall classnames@2.2.6
+54 silly decomposeActions finalize classnames@2.2.6
+55 silly decomposeActions refresh-package-json classnames@2.2.6
+56 silly decomposeActions fetch classnames@2.2.6
+57 silly decomposeActions extract classnames@2.2.6
+58 silly decomposeActions preinstall classnames@2.2.6
+59 silly decomposeActions build classnames@2.2.6
+60 silly decomposeActions install classnames@2.2.6
+61 silly decomposeActions postinstall classnames@2.2.6
+62 silly decomposeActions finalize classnames@2.2.6
+63 silly decomposeActions refresh-package-json classnames@2.2.6
+64 silly decomposeActions preinstall comp-c@1.0.0
+65 silly decomposeActions build comp-c@1.0.0
+66 silly decomposeActions install comp-c@1.0.0
+67 silly decomposeActions postinstall comp-c@1.0.0
+68 silly decomposeActions finalize comp-c@1.0.0
+69 silly decomposeActions refresh-package-json comp-c@1.0.0
+70 silly decomposeActions fetch classnames@2.2.6
+71 silly decomposeActions extract classnames@2.2.6
+72 silly decomposeActions preinstall classnames@2.2.6
+73 silly decomposeActions build classnames@2.2.6
+74 silly decomposeActions install classnames@2.2.6
+75 silly decomposeActions postinstall classnames@2.2.6
+76 silly decomposeActions finalize classnames@2.2.6
+77 silly decomposeActions refresh-package-json classnames@2.2.6
+78 silly decomposeActions fetch classnames@2.2.6
+79 silly decomposeActions extract classnames@2.2.6
+80 silly decomposeActions preinstall classnames@2.2.6
+81 silly decomposeActions build classnames@2.2.6
+82 silly decomposeActions install classnames@2.2.6
+83 silly decomposeActions postinstall classnames@2.2.6
+84 silly decomposeActions finalize classnames@2.2.6
+85 silly decomposeActions refresh-package-json classnames@2.2.6
+86 silly decomposeActions preinstall comp-b@1.0.0
+87 silly decomposeActions build comp-b@1.0.0
+88 silly decomposeActions install comp-b@1.0.0
+89 silly decomposeActions postinstall comp-b@1.0.0
+90 silly decomposeActions finalize comp-b@1.0.0
+91 silly decomposeActions refresh-package-json comp-b@1.0.0
+92 silly decomposeActions preinstall comp-c@1.0.0
+93 silly decomposeActions build comp-c@1.0.0
+94 silly decomposeActions install comp-c@1.0.0
+95 silly decomposeActions postinstall comp-c@1.0.0
+96 silly decomposeActions finalize comp-c@1.0.0
+97 silly decomposeActions refresh-package-json comp-c@1.0.0
+98 silly install executeActions
+99 silly doSerial global-install 50
+100 verbose correctMkdir /Users/davidfirst/.npm/_locks correctMkdir not in flight; initializing
+101 verbose lock using /Users/davidfirst/.npm/_locks/staging-edc2bee0b8679738.lock for /private/tmp/npm-issue/components/comp-a/node_modules/.staging
+102 silly doParallel extract 4
+103 silly extract classnames@2.2.6
+104 silly extract classnames@2.2.6
+105 silly extract classnames@2.2.6
+106 silly extract classnames@2.2.6
+107 silly tarball trying classnames@^2.2.6 by hash: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+108 silly tarball trying classnames@^2.2.6 by hash: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+109 silly tarball trying classnames@^2.2.6 by hash: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+110 silly tarball trying classnames@^2.2.6 by hash: sha512-JR/iSQOSt+LQIWwrwEzJ9uk0xfN3mTVYMwt1Ir5mUcSN6pU+V4zQFFaJsclJbPuAUQH+yfWef6tm7l1quW3C8Q==
+111 silly extract classnames@^2.2.6 extracted to /private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-00a850cf (24ms)
+112 silly extract classnames@^2.2.6 extracted to /private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-654d5f12 (24ms)
+113 silly extract classnames@^2.2.6 extracted to /private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-00a850cf (24ms)
+114 silly extract classnames@^2.2.6 extracted to /private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-8debcb1d (26ms)
+115 timing action:extract Completed in 27ms
+116 silly doReverseSerial unbuild 50
+117 silly doSerial remove 50
+118 silly doSerial move 50
+119 silly doSerial finalize 50
+120 silly finalize /private/tmp/npm-issue/components/comp-b/node_modules/classnames
+121 silly finalize /private/tmp/npm-issue/components/comp-c/node_modules/classnames
+122 silly finalize /private/tmp/npm-issue/components/comp-c
+123 silly finalize /private/tmp/npm-issue/components/comp-c/node_modules/classnames
+124 timing action:finalize Completed in 11ms
+125 verbose unlock done using /Users/davidfirst/.npm/_locks/staging-edc2bee0b8679738.lock for /private/tmp/npm-issue/components/comp-a/node_modules/.staging
+126 warn rollback Rolling back classnames@2.2.6 failed (this is probably harmless): /private/tmp/npm-issue/components/comp-c/node_modules/classnames is not a child of /private/tmp/npm-issue/components/comp-a
+127 timing stage:rollbackFailedOptional Completed in 2ms
+128 timing stage:runTopLevelLifecycles Completed in 381ms
+129 silly saveTree comp-a@1.0.0
+129 silly saveTree ├── classnames@2.2.6
+129 silly saveTree ├─┬ comp-b@1.0.0
+129 silly saveTree │ ├── classnames@2.2.6
+129 silly saveTree │ └─┬ comp-c@1.0.0
+129 silly saveTree │   └── classnames@2.2.6
+129 silly saveTree └─┬ comp-c@1.0.0
+129 silly saveTree   └── classnames@2.2.6
+130 warn comp-a@1.0.0 No description
+131 warn comp-a@1.0.0 No repository field.
+132 verbose stack Error: ENOENT: no such file or directory, rename '/private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-00a850cf' -> '/private/tmp/npm-issue/components/comp-c/node_modules/classnames'
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/move-concurrently/move.js:14:12
+132 verbose stack     at rename (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/move-concurrently/move.js:74:12)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/run-queue/queue.js:63:24
+132 verbose stack     at RunQueue._runQueue (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/run-queue/queue.js:62:22)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/run-queue/queue.js:30:12
+132 verbose stack     at RunQueue.run (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/run-queue/queue.js:27:24)
+132 verbose stack     at move (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/move-concurrently/move.js:46:16)
+132 verbose stack     at actuallyMoveStaging (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/action/finalize.js:67:12)
+132 verbose stack     at destinationIsClear.then.catch (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/action/finalize.js:57:45)
+132 verbose stack     at runCallback (timers.js:810:20)
+132 verbose stack     at tryOnImmediate (timers.js:768:5)
+132 verbose stack     at processImmediate [as _immediateCallback] (timers.js:745:5)
+132 verbose stack     at moveStagingToDestination (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/action/finalize.js:57:13)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/mkdirp/index.js:48:26
+132 verbose stack     at callback (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:295:20)
+132 verbose stack     at FSReqWrap.oncomplete (fs.js:153:5)
+132 verbose stack     at module.exports (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/action/finalize.js:36:8)
+132 verbose stack     at BB.fromNode (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:75:20)
+132 verbose stack     at runAction (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:74:13)
+132 verbose stack     at actions.(anonymous function) (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:50:17)
+132 verbose stack     at execAction (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:191:18)
+132 verbose stack     at withInit (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:159:15)
+132 verbose stack     at withInit (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:175:13)
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:158:10)
+132 verbose stack     at doSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:139:3)
+132 verbose stack     at Array.<anonymous> (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+132 verbose stack     at LOOP (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:157:30)
+132 verbose stack     at doSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:139:3)
+132 verbose stack     at Array.<anonymous> (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+132 verbose stack     at LOOP (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:157:30)
+132 verbose stack     at doSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:139:3)
+132 verbose stack     at Array.<anonymous> (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+132 verbose stack     at LOOP (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:157:30)
+132 verbose stack From previous event:
+132 verbose stack     at runAction (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:74:13)
+132 verbose stack     at actions.(anonymous function) (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:50:17)
+132 verbose stack     at execAction (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:191:18)
+132 verbose stack     at result.then (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:77:25)
+132 verbose stack From previous event:
+132 verbose stack     at withInit (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:159:15)
+132 verbose stack From previous event:
+132 verbose stack     at withInit (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:175:13)
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:158:10)
+132 verbose stack     at doSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:139:3)
+132 verbose stack     at Array.<anonymous> (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+132 verbose stack     at LOOP (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:157:30)
+132 verbose stack     at doSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:139:3)
+132 verbose stack     at Array.<anonymous> (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+132 verbose stack     at LOOP (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:157:30)
+132 verbose stack     at doSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:139:3)
+132 verbose stack     at Array.<anonymous> (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+132 verbose stack     at LOOP (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+132 verbose stack     at /Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+132 verbose stack     at runSerial (/Users/davidfirst/.nvm/versions/node/v8.12.0/lib/node_modules/npm/lib/install/actions.js:157:30)
+133 verbose cwd /private/tmp/npm-issue/components/comp-a
+134 verbose Darwin 18.6.0
+135 verbose argv "/Users/davidfirst/.nvm/versions/node/v8.12.0/bin/node" "/Users/davidfirst/.nvm/versions/node/v8.12.0/bin/npm" "i"
+136 verbose node v8.12.0
+137 verbose npm  v6.11.3
+138 error code ENOENT
+139 error syscall rename
+140 error path /private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-00a850cf
+141 error dest /private/tmp/npm-issue/components/comp-c/node_modules/classnames
+142 error errno -2
+143 error enoent ENOENT: no such file or directory, rename '/private/tmp/npm-issue/components/comp-a/node_modules/.staging/classnames-00a850cf' -> '/private/tmp/npm-issue/components/comp-c/node_modules/classnames'
+144 error enoent This is related to npm not being able to find a file.
+145 verbose exit [ -2, true ]
